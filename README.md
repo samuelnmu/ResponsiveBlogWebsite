@@ -2,7 +2,6 @@
 This is a Responsive Blog Website
 
 blogWebsite_firstCollaboration.
-This is a Responsive Blog Website
 
 NOTE: DURATION:14 DAYS(2 WEEKS) SECTIONS: 6(HEADER, ABOUT, 3CONTENT(BLOGS), FOOTER)
 
