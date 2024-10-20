@@ -9,14 +9,24 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <header>
+    <section>
+      <header>
         <nav>
             <ul>
-                <li><a href="about.ejs">About</a></li>
-                <li><a href="contact.ejs">Contact</a></li>
+                <li><a href="about.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="footer.html">Footer</a></li>
             </ul>
         </nav>
     </header>
+    </section>
+
+    <!-- About section -->
+    <section>
+      <h1>About Us</h1>
+    <p>Learn more about our mission to help traders with the psychological aspects of trading.</p>
+    </section>
 
     <!-- Main Content Section -->
     <main>
@@ -152,7 +162,20 @@
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Trading Psychology Blog | All rights reserved.</p>
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        </div>
+      
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
     </footer>
+    <a href="index.html">Back Top</a>
 </body>
 </html>
 
