@@ -5,13 +5,18 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    position: relative;
+    background-color: aliceblue;
+
 }
 nav{
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+}
+nav img{
+    width: 150px;
+    border-radius: 20%;
 }
 .nav-links{
     flex: 1;
@@ -21,41 +26,53 @@ nav{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
+    position: relative;
 }
 .nav-links ul li a{
-    color: green;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 600;
 }
-.nav-links ul li::after{
+.nav-links ul li a::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: black;
+    background: green;
     display: block;
-    margin:auto
+    margin: auto;
+    transition: 0.5s;
 }
-.nav-links ul li:hover::after{
-    width: 100%; 
+.nav-links ul li a:hover::after{
+    width: 100%;
 }
 .text-box{
     width: 90%;
-    color: green;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     text-align: center;
-
 }
 .text-box h1{
     font-size: 62px;
-    font-weight: 600;
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 30px;
-    color: green;
-    font-weight: 500;
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid green;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid gray;
+    background: grey;
+    transition: 1s;
+
 }
