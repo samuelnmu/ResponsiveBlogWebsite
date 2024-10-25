@@ -11,7 +11,8 @@
     <section class="header">
     <nav>
       <!-- <a href="index.html"><img src="/images/wallstreet.jpg"></a> -->
-      <div class="nav-links">
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu" aria-hidden="true"></i>
         <ul>
           <li><a href="">HOME</a></li>
           <li><a href="">ABOUT</a></li>
@@ -19,6 +20,7 @@
           <li><a href="">CONTACT</a></li>
         </ul>
       </div>
+      <i class="fa fa-bars" onclick="showeMenu" aria-hidden="true"></i>
     </nav>
     <div class="text-box">
       <h1>TRADER'S JOURNAL</h1>
@@ -27,5 +29,114 @@
     </div>
   </section>
   
+  <!-- Blog section -->
+  <section class="Blog">
+    <h1>Latest Blog Post</h1>
+    <div class="row">
+      <div class="blog-row">
+        <h2>1. Self-Awareness</h2>
+        <p>Here’s a summary of 101 Lessons for Becoming Your Own Trading Psychologist, which highlights key principles traders can follow to master their emotions and improve their mental approach to the markets:
+          Understanding Emotional Discipline in Trading
+          Understand Your Emotions: Recognize your emotional triggers—whether it’s fear, greed, or overconfidence—and how they affect your trading decisions.
+          Keep a Trading Journal: Log your thoughts and feelings before, during, and after trades. This helps you track emotional patterns and identify when emotions cloud your judgment.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>2. Detachment from Money</h2>
+        <p>i>Focus on Process, Not Profits: Shift your focus from making money to executing your strategy flawlessly. Detaching emotionally from money helps you make rational decisions.
+        Risk Only What You Can Afford to Lose**: By trading with risk capital, you reduce the emotional stress that comes with the fear of losing money.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>3. Develop Emotional Discipline</h2>
+        <p>Stick to Your Plan: Have a well-thought-out trading strategy and follow it no matter what emotions arise.
+          Practice Patience: Avoid impulsive trades. Wait for the right market conditions that align with your strategy.
+          Learn to Accept Losses: Losses are part of trading. Accept them gracefully and avoid revenge trading.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>4. Control Over-Reaction to Market Movements</h2>
+        <p>Avoid Emotional Extremes: Don’t get too excited during winning streaks or too discouraged during losing streaks. Both can lead to irrational decisions.
+          Don’t Chase Losses: When you’ve lost on a trade, don’t try to make it back immediately. Let your mind reset before entering another trade.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>5. Build Confidence through Mastery</h2>
+        <p>Constant Learning: The more you know about the market, the more confident you’ll feel in your trades. Keep improving your technical and fundamental analysis skills.
+          Master a Specific Strategy**: Focus on becoming an expert in a particular trading strategy rather than jumping from one to another.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>6. Mindset Training</h2>
+        <p>Visualization: Visualize yourself successfully executing your trading plan. Positive mental rehearsal can improve your performance.
+          Mindfulness and Meditation: Regular mindfulness practices help you stay calm and focused, especially during volatile market conditions.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>7. Risk Management</h2>
+        <p>Control Position Sizing: Never risk too much on any single trade. Stick to a consistent risk percentage.
+          Set Stop-Losses: Always set a stop-loss to limit potential losses, preventing emotions from dictating when to exit a trade.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>8. Manage Stress and Burnout</h2>
+        <p> Take Breaks: Step away from the screens when you feel overwhelmed. Sometimes the best move is not to trade.
+          Exercise and Healthy Lifestyle**: Keep your body and mind in shape. Stress management through a healthy routine can keep you sharp during trading.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>9. Build a Long-Term Perspective</h2>
+        <p>Play the Long Game: Don’t get caught up in daily fluctuations. Focus on building your skills and portfolio over the long term.
+          Accept Uncertainty: Trading is full of uncertainty, and even the best strategies will have losing trades. Accepting this fact helps you avoid frustration.</p>
+      </div>
+
+      <div class="blog-row">
+        <h2>10. Accountability and Mentorship</h2>
+        <p> Hold Yourself Accountable: Set personal performance benchmarks and evaluate yourself regularly.
+          Seek Feedback: Get a mentor or join a trading group to receive constructive criticism and improve your psychological approach.</p>
+      </div> 
+
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <form action="">
+        <div>
+          <input type="emai" id="emai" placeholder="Email">
+        </div>
+        <div>
+          <input type="emai" id="emai" placeholder="Email">
+        </div>
+        <div>
+          <input type="emai" id="emai" placeholder="Email">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section>
+    <footer>
+      <div>
+        <footer>
+          <p>&copy; 2024 Trading Psychology Blog | All rights reserved.</p>
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+          </div>
+    </footer>
+  </section>
+  <!-- JavaScript  Toogle Menu-->
+  <script>
+    var navLinks = document.getElementById('navLinks');
+    function showeMenu(){
+      navLinks.style.right = '0';
+    }
+    function hideMenu(){
+      navLinks.style.right ='-200px'
+    }
+  </script>
 </body>
 </html>
