@@ -104,10 +104,26 @@ nav .fa{
     height: 20vh;
     background-color: aliceblue;
 }
+.feedbackH{
+    text-align: center;
+    background-color: rgba(5, 5, 91, 0.729);
+    color: #ffff;
+}
 .feedbackfrm{
-    display: flex;
-    padding-left: 20%;
-    align-items: center;
-    gap: 20px;
+    padding-left: 5%;
+    padding-top: 15px;
+    width: 50%;
+}
 
+/* Footer section */
+#footers{
+    height: 10vh;
+    background-color: aliceblue;
+    display: flex;
+    margin-top: 5px;
+}
+footer{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
 }
