@@ -97,3 +97,17 @@ nav .fa{
     padding-left: 70px;
     gap: 60px;
 }
+
+
+/* Feedback section */
+#feedback{
+    height: 20vh;
+    background-color: aliceblue;
+}
+.feedbackfrm{
+    display: flex;
+    padding-left: 20%;
+    align-items: center;
+    gap: 20px;
+
+}
